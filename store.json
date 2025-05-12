@@ -1,0 +1,81 @@
+{
+    "name": "FearlessCMS Store",
+    "version": "1.0.0",
+    "description": "Official plugin and theme store for FearlessCMS",
+    "last_updated": "2024-03-20",
+    "plugins": [
+        {
+            "name": "SEO Plugin",
+            "slug": "seo",
+            "version": "1.0.0",
+            "description": "SEO optimization plugin for FearlessCMS",
+            "author": "Fearless Geek Media",
+            "author_url": "https://github.com/fearlessgeekmedia",
+            "repository": "https://github.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin",
+            "download_url": "https://github.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/archive/refs/heads/main.zip",
+            "requires": "1.0.0",
+            "tested": "1.0.0",
+            "last_updated": "2024-03-20",
+            "sections": {
+                "description": "A comprehensive SEO plugin for FearlessCMS that helps optimize your website for search engines.",
+                "installation": "1. Download the plugin\n2. Upload it to your plugins directory\n3. Activate the plugin through the admin interface",
+                "changelog": "1.0.0\n- Initial release"
+            },
+            "banners": {
+                "low": "https://raw.githubusercontent.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/main/assets/banner-772x250.jpg",
+                "high": "https://raw.githubusercontent.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/main/assets/banner-1544x500.jpg"
+            },
+            "icons": {
+                "default": "https://raw.githubusercontent.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/main/assets/icon-256x256.png",
+                "1x": "https://raw.githubusercontent.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/main/assets/icon-128x128.png",
+                "2x": "https://raw.githubusercontent.com/fearlessgeekmedia/FearlessCMS-SEO-Plugin/main/assets/icon-256x256.png"
+            }
+        },
+        {
+            "name": "Blog Plugin",
+            "slug": "blog",
+            "version": "1.0.0",
+            "description": "Blog functionality plugin for FearlessCMS",
+            "author": "Fearless Geek Media",
+            "author_url": "https://github.com/fearlessgeekmedia",
+            "repository": "https://github.com/fearlessgeekmedia/fearlesscms-blog-plugin",
+            "download_url": "https://github.com/fearlessgeekmedia/fearlesscms-blog-plugin/archive/refs/heads/main.zip",
+            "requires": "1.0.0",
+            "tested": "1.0.0",
+            "last_updated": "2024-03-20",
+            "sections": {
+                "description": "Add blog functionality to your FearlessCMS website with this feature-rich plugin.",
+                "installation": "1. Download the plugin\n2. Upload it to your plugins directory\n3. Activate the plugin through the admin interface",
+                "changelog": "1.0.0\n- Initial release"
+            },
+            "banners": {
+                "low": "https://raw.githubusercontent.com/fearlessgeekmedia/fearlesscms-blog-plugin/main/assets/banner-772x250.jpg",
+                "high": "https://raw.githubusercontent.com/fearlessgeekmedia/fearlesscms-blog-plugin/main/assets/banner-1544x500.jpg"
+            },
+            "icons": {
+                "default": "https://raw.githubusercontent.com/fearlessgeekmedia/fearlesscms-blog-plugin/main/assets/icon-256x256.png",
+                "1x": "https://raw.githubusercontent.com/fearlessgeekmedia/fearlesscms-blog-plugin/main/assets/icon-128x128.png",
+                "2x": "https://raw.githubusercontent.com/fearlessgeekmedia/fearlesscms-blog-plugin/main/assets/icon-256x256.png"
+            }
+        }
+    ],
+    "themes": [],
+    "categories": [
+        {
+            "name": "SEO",
+            "slug": "seo",
+            "description": "Search Engine Optimization plugins"
+        },
+        {
+            "name": "Content",
+            "slug": "content",
+            "description": "Content management and creation plugins"
+        }
+    ],
+    "tags": [
+        "seo",
+        "blog",
+        "content",
+        "management"
+    ]
+} 
